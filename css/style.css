@@ -1,0 +1,22 @@
+body{
+  padding: 10px 20px;
+  background-color: #47375e;
+}
+h2 h5{
+  font-family: arial;
+}
+table{
+  background-image: url(../img/stars.jpg);
+}
+#area-navegacao{
+  margin-bottom: 5px;
+}
+#titulo{
+  background-image: url(../img/stars.gif);
+  background-size: 550px;
+  background-repeat: repeat-x;
+  margin-bottom: 30px;
+}
+#subtitulo h2 h5{
+  background-color: #802600;
+}
