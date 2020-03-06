@@ -20,3 +20,15 @@ table{
 #subtitulo h2 h5{
   background-color: #802600;
 }
+#bem-vindo{
+  background-image: url(../img/stars.jpg);
+}
+.orange{
+  color: orange;
+}
+.texto{
+  font-size: 30px;
+}
+.borda{
+  border: solid #802600 1px;
+}
