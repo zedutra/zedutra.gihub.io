@@ -20,11 +20,15 @@ table{
 #subtitulo h2 h5{
   background-color: #802600;
 }
-#bem-vindo{
+.postagem{
+  margin-top: 30px;
   background-image: url(../img/stars.jpg);
 }
 .orange{
   color: orange;
+}
+.red{
+  color: red;
 }
 .texto{
   font-size: 30px;
