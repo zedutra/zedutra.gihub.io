@@ -28,6 +28,7 @@ table{
 }
 .texto{
   font-size: 30px;
+  text-align: center;
 }
 .borda{
   border: solid #802600 1px;
