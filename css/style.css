@@ -24,6 +24,10 @@ table{
   margin-top: 30px;
   background-image: url(../img/stars.jpg);
 }
+.postagem-black{
+  margin-top: 30px;
+  background-color: black;
+}
 .orange{
   color: orange;
 }
