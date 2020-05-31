@@ -1,4 +1,4 @@
-# zedutra.gihub.io
+# zedutra.github.io
 Meu lixeiro virtual de limite quase infinito.
 
 __observações__
