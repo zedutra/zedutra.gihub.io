@@ -1,12 +1,16 @@
 body{
   padding: 5px 20px;
-  background-color: #47375e;
+  background-color: #131313;
 }
 h2 h5{
   font-family: arial;
+  color: rgb(71, 71, 71);
 }
 table{
   background-image: url(../img/stars.jpg);
+}
+p{
+  color: aliceblue;
 }
 #area-navegacao{
   margin-bottom: 5px;
@@ -28,12 +32,14 @@ table{
   margin-top: 30px;
   background-color: black;
 }
+/*
 .orange{
   color: orange;
 }
 .red{
   color: red;
 }
+*/
 .texto{
   font-size: 30px;
   text-align: center;
