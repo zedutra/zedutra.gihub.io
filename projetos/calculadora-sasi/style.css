@@ -1,0 +1,31 @@
+body {
+    background-color: #B7DB7B;
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px #000;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+h1{
+    color: #036FBA;
+}
+.alinhar{
+    text-align: left;
+}
+#area-selecao {
+    height: 300px;
+}
