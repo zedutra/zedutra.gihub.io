@@ -1,0 +1,152 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+}
+
+h1, h2, h3{
+    color: var(--primary);
+}
+
+h3 .titulo{
+    text-transform: uppercase;
+}
+
+p{
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+em{
+    color: var(--primary-dark);
+    font-weight: bold;
+}
+
+
+/* HEADER */
+#header {
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: white;
+    transition: ease-out 0.2s;
+}
+#header .navbar-collapse {
+    width: auto;
+    flex-grow: 0;
+}
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    border: solid 4px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 4px var(--primary);
+    color: var(--primary);
+}
+
+
+/* SLIDER */
+#slider{
+    margin-top: 15px;
+}
+
+
+/* CARDS */
+#cards{
+    margin-top: 50px;
+}
+#cards .btn{
+    background-color: var(--secondary);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+#cards .btn:hover{
+    background-color: var(--secondary-dark);
+}
+
+
+/* BADGES */
+#badges{
+    padding-top: 50px;
+    background-color: #F6F8FA;
+}
+#badges h3{
+    text-transform: uppercase;
+}
+
+
+/* PORTFOLIO */
+#portfolio .row .col-lg-3, .col-md-6, .col-sm-12{
+    padding: 0px;
+}
+
+
+/* FAIXA */
+#faixa .btn{
+    background-color: var(--secondary);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+#faixa .btn:hover{
+    background-color: var(--secondary-dark);
+}
+
+
+/* EQUIPE */
+#equipe .card{
+    padding: 0px;
+    background-color: #F6F8FA;
+}
+#equipe i{
+    margin: 0 5px 15px 5px;
+}
+
+
+/* CONTATO */
+#contato{
+    background-position: top left;
+    background-size: cover;
+    background-image: url("http://dutra.digital/wp-content/plugins/colibri-page-builder/extend-builder/assets/partials-images/contact2.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding: 150px 0 150px 0;
+}
+#contato .texto-branco{
+    color: white;
+}
+#contato .form-group{
+    margin-bottom: 20px;
+}
+#dados{
+    background-color: var(--primary);
+    color: white;
+}
+#dados h3{
+    color: white;
+}
+#dados p{
+    color: white;
+}
+#formulario{
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+}
+#formulario label{
+    color: var(--primary);
+}
+#formulario input{
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid var(--primary) 1px;
+}
+#formulario textarea{
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid var(--primary) 1px;
+}

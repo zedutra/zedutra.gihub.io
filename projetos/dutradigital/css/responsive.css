@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+    #header .navbar-collapse{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #header .nav-link{
+        margin-right: 0px;
+        margin-left: 0px;
+        color: var(--primary);
+    }
+}
+
+@media (max-width: 768px) {
+    #slider .sem-padding{
+        padding: 0px;
+    }
+    #portfolio img{
+        margin-bottom: 20px;
+    }
+}
