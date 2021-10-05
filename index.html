@@ -1,40 +1,165 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dutra</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body style="background-color: black;">
-    <div class="container col-8">
-      <div class="row" style="height: 600px; margin-top: 50px;">
-        <div class="col-2" style="background-color: #FFFF01;"></div>
-        <div class="col-2" style="background-color: #01FFFF;"></div>
-        <div class="col-2" style="background-color: #01FF01;"></div>
-        <div class="col-2" style="background-color: #FF00FE;"></div>
-        <div class="col-2" style="background-color: #FE0002;"></div>
-        <div class="col-2" style="background-color: #0000FE;"></div>
-      </div>
-      <div class="row" style="height: 50px;">
-        <div class="col-2" style="background-color: #0000FE;"></div>
-        <div class="col-2" style="background-color: #FE0002;"></div>
-        <div class="col-2" style="background-color: #FF00FE;"></div>
-        <div class="col-2" style="background-color: #01FF01;"></div>
-        <div class="col-2" style="background-color: #01FFFF;"></div>
-        <div class="col-2" style="background-color: #FFFF01;"></div>
-      </div>
-      <div class="row" style="height: 50px;">
-        <div class="col-9">
-          <div class="row" style="height: 50px;">
-            <div class="col-4" style="background-color: #0F036F"></div>
-            <div class="col-4" style="background-color: white"></div>
-            <div class="col-4" style="background-color: #224556"></div>
-          </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Vitor - Resume</title>
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+</head>
+<body class="mt-3 mb-3">
+<style type="text/css">
+.title{
+    font-size: 5em;
+}
+.bl-grey{
+    border-left: 2px solid grey;
+}
+.bb-black{
+    border-bottom: 2px solid black;
+}
+.list-clean-decoration{
+    list-style-type: none;
+}
+.list-clean-decoration li{
+    margin-bottom: 10px;
+}
+#resume-body{
+    background-color: #F6F6F6;
+}
+#badges{
+    list-style-type: none;
+}
+#better-at{
+    border-top: solid #dcdada 1px;
+    border-bottom: solid #dcdada 1px;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    color: #0a58ca;
+    text-decoration: none;
+}
+</style>
+<div class="container" id="resume-body">
+    <div class="row pt-3 mb-3">
+        <div class="col-md-3 text-center">
+            <img src="img/i.png" alt="My photo" class="img-thumbnail">
         </div>
-        <div class="col-2" style="background-color: gray;"></div>
-        <div class="col-1" style="background-color: black;"></div>
-      </div>
+        <div class="col-md-6 text-center">
+            <h1 class="title">JOSE<br> VITOR</h1><br>
+            <h2>WEB DESIGN &amp; DEVELOPER</h2>
+        </div>
+        <div class="col-md-3 d-flex align-items-center">
+            <div>
+                <ul id="badges">
+                    <li><span class="badge bg-secondary">Phone</span> +55 (38) 99812 - 3236</li>
+                    <li><span class="badge bg-secondary">Email</span> zedutra@protonmail.com</li>
+                    <li><span class="badge bg-secondary">Website</span> zedutra.github.io</li>
+                    <li><span class="badge bg-secondary">Address</span> Minas Gerais, BRASIL</li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </body>
+    <div class="row mt-3 mb-3">
+        <div class="d-flex justify-content-around" id="better-at">
+            <div class="p-2">Know me better at</div>
+            <div class="p-2"><a href="https://www.instagram.com/zedutra1/"><ion-icon name="logo-instagram" class="align-middle"></ion-icon>/zedutra1</a></div>
+            <div class="p-2"><a href="https://github.com/zedutra"><ion-icon name="logo-github" class="align-middle"></ion-icon>/zedutra1</a></div>
+        </div>
+    </div>
+    <div class="row mt-3 mb-3">
+        <div class="col-md-8">
+            <div class="container">
+                <h2 class="bb-black p-2"><ion-icon name="school-outline" class="align-middle"></ion-icon> Education</h2>
+                <p class="bl-grey p-2">
+                    2020<br/>
+                    <b>Technical in Web Computing</b><br/>
+                    Brazilian Federal Institute
+                </p>
+            </div>
+            <div class="container">
+                <h2 class="bb-black p-2"><ion-icon name="bar-chart-outline" class="align-middle"></ion-icon> Employment</h2>
+                <p>
+                    2020 - 2021<br/>
+                    <b>Web Developer</b><br/>
+                    Nortii Systems
+                    <div class="bl-grey p-1">
+                        <ul>
+                            <li>Created web applications and components using PHP programming language.</li>
+                            <li>Regularly updated knowledge of latest industry trends in web development related technologies.</li>
+                            <li>Researched, tested and implemented various client feature requests to deliver internal content management systems and content delivery applications.</li>
+                            <li>Suggested changes and enhancements for websites by offering specific solutions and improvements based on end-user needs.</li>
+                            <li>Wrote server-side and client-side code for websites and PWA projects using PHP, HTML, CSS and JavaScript, specifically with <b>Laravel</b> Framework</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="container">
+                <h2 class="bb-black p-2"><ion-icon name="person-circle-outline" class="align-middle"></ion-icon> About me</h2>
+                <p><b>Name:</b> José Vitor Dutra Antônio</p>
+                <p><b>DOB:</b> 02/11/2003</p>
+                <p><b>Nationality:</b> Brazil</p>
+                <p><b>Location:</b> Janaúba, Minas Gerais - 39442-288</p>
+                <p><b>Experience:</b> 1 year</p>
+                <p><b>Availability:</b> Parttime</p>
+            </div>
+            <div class="container">
+                <p>Enthusiastic developer eager to contribute to team sucess through hard work, attention to detail and excellent organizational skills. Clear understanding of programming and webdesign and training in app development. Motivated to learn, grow and excel in IT industry.</p>
+            </div>
+            <div class="container">
+                <h2 class="bb-black p-2"><ion-icon name="cog-outline" class="align-middle"></ion-icon> Professional Skills</h2>
+                <ul class="list-clean-decoration">
+                    <li>Project Management
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Very Good</div></div>
+                    </li>
+                    <li>CMS Management
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Excellent</div></div>
+                    </li>
+                    <li>Websecurity
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Good</div></div>
+                    </li>
+                    <li>PHP
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Excellent</div></div>
+                    </li>
+                    <li>HTML
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Excellent</div></div>
+                    </li>
+                    <li>CSS
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Excellent</div></div>
+                    </li>
+                    <li>JavaScript
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Good</div></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <h2 class="bb-black p-2"><ion-icon name="globe-outline" class="align-middle"></ion-icon> Language</h2>
+                <ul class="list-clean-decoration">
+                    <li>Portuguese
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Excellent</div></div>
+                    </li>
+                    <li>English
+                        <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Good</div></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+<!-- Ionicon JS -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
