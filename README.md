@@ -1,2 +1,2 @@
 # zedutra.github.io
-Hub de projetos
+Cartão de visita
